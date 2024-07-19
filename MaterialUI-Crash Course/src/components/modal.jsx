@@ -24,7 +24,7 @@ export default function BasicModal() {
 
   return (
     <div>
-      <Button onClick={handleOpen}>Book Now, Cunts!</Button>
+      <Button onClick={handleOpen}>Book Now!</Button>
       <Modal
         open={open}
         onClose={handleClose}
